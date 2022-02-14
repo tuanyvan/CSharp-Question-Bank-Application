@@ -1,0 +1,603 @@
+question,answer,correct_answer
+"An object’s property can have which of the following accessors? 
+",a) get ~b) set ~c) a and b ~d) None ~,c
+"Which of the following terms refers to the data represented by an object’s instance variables? 
+",a) Behaviors ~b) Attributes ~c) Methods ~d) Information ~,b
+"Each object of a class is identical except for the values and references it holds. 
+",,True.
+"Methods always return a value or reference. 
+",,"False. A method's return type can be void, indicating that there is no return value. 
+5. Instance variables and local variables both represent the attributes of a class.  "
+"In UML class diagrams, the + sign 
+",a) signifies that the section can be expanded. ~b) is the public visibility symbol. ~c) stands for addition. ~d) None of the above ~,b
+"Method headers contain all of the following except:  
+",a) access modifier ~b) left brace ~c) method name ~d) return type ~,b
+"Every C# application is composed of at least one: 
+",a) public method ~b) data member ~c) public class declaration ~d) imported class ~,c
+"The keyword new is used to create a new method of a class. 
+",,"False. It's used to create a new object of a class. 
+4.4 Declaring a Method with a Parameter "
+"The comma-separated list of values specified in a method call are called ________. 
+",a) arguments ~b) references ~c) objects ~d) parameters ~,a
+"Any classes that are not explicitly placed in a namespace are implicitly placed in the global 
+",,True.
+"Why would the access modifier private be used instead of public? 
+",a) To make it more complicated for accessing methods and variables ~b) To hide sensitive information ~c) To help insure encapsulation ~d) b and c ~,d
+"Attributes of a class are also known as: 
+",a) constructors ~b) local variables ~c) fields ~d) classes ~,c
+"Declaring a class’s instance variables with access modifier private indicates that only the class’s 
+",,True.
+"The order in which methods are declared in a class declaration determines when those methods are 
+",,"False. The order in which methods are declared does not determine the order in which they 
+are called.  "
+"In a UML class diagram, the word “property” is in _________. 
+","a) braces [] ~b) quotes """" ~c) guillemets «» ~d) curly braces {} ~",c
+"What is the private visibility symbol in the UML class diagram? 
+",a) + ~b) – ~c) * ~d) ^ ~,b
+"A class diagram helps you design a class, so it is required to show every implementation detail. 
+",,"False. To maintain simplicity when designing the class, it is often best not to show every 
+implementation detail. "
+"Which of the following is a reason for using the get and set accessors? 
+",a) To follow a universal standard.  ~b) To allow the class to control the manner in which the data is set or returned. ~c) To make a program more robust. ~d) b and c ~e) All of the above ~,d
+"Which method converts a string into an int? 
+",a) string_variable.ConvertToInt ~b) Convert.ToInt32 ~c) Type.ConvertToInt ~d) All of the above ~,b
+"It is possible to have only one of the get or set accessors for a variable. 
+",,True.
+"By including only the get accessor, the private variable can be assigned a new value. 
+",,"False. Including only the get accessor, makes the private variable read-only outside of the 
+class.  "
+"An auto-implemented property may have 
+",a) only a get accessor ~b) only a set accessor ~c) get and set accessors ~d) none of the above ~,c
+"You can implement validation logic in auto-implemented properties. 
+",,"False. You must create user-defined properties if you want to add any logic. 
+4.9 Value Types vs. Reference Types "
+"A variable of a reference type contains: 
+",a) information about the type and its data ~b) data of that type ~c) the address of the location in memory where data is stored ~d) None of the above. ~,c
+"What is the default value of a reference? 
+","a) 0 ~b) """" ~c) null ~d) default ~",c
+"Value types normally represent single pieces of data. 
+",,True.
+"Programmers can create reference types. 
+",,True.
+"A primitive-type variable can store exactly one value at a time, whereas one object can contain 
+",,True.
+"Primitive-type variables refer to objects in a C# application.  
+",,"False. Reference-type variables refer to objects in a C# application. 
+4.10 Initializing Objects with Constructors "
+"A ________ is called to initialize a new instance of a class. 
+",a) constructor ~b) destructor ~c) creator ~d) new ~,a
+"What keyword is associated with creating objects? 
+",a) create ~b) constructor ~c) new ~d) start ~,c
+"A default constructor has how many parameters? 
+",a) 0 ~b) 1 ~c) 2 ~d) any number ~,a
+"Constructors are always public. 
+",,False.
+"Like methods, constructors can have more than one parameter. 
+",,True.
+"The compiler provides a default constructor with a string parameter in any class that does not 
+",,"False. The compiler provides a default constructor with no parameters in any class that does 
+not explicitly include a constructor. "
+"Constructors can take arguments, but cannot return values.  
+",,True.
+"To type a decimal literal, you must type the letter ____ at the end of a real number. 
+",a) C or c ~b) E or e ~c) M or m ~d) T or t ~,c
+"Which of the following list correctly orders which type has fewest to the most significant digits?  
+","a) decimal, double, float ~b) float, double, decimal ~c) double, float, decimal ~d) decimal, float, double ~",b
+"Let z represent a format specifier. How is the format specifier included in WriteLine? 
+","a) { 0:z } ~b) { z:0 } ~c) { 0,z } ~d) { z,0 } ~",a
+"What is the difference between a float and a double? 
+",a) double variables store integers and float variables store floating-point  numbers. ~b) double variables store numbers with smaller magnitude and coarser detail. ~c) double variables store numbers with larger magnitude and finer detail. ~d) None of the above. ~,c
+"double represents a double-precision floating-point number, while float represents a single-
+",,True.
+"float, double, decimal are always 100% precise. 
+",,"False. All three types could only hold a limited range of numbers. 
+ "
+"_________ methods can be called without the need for an object of the class to exist. 
+",a) special ~b) independent ~c) static ~d) dependent ~,c
+"Methods that call themselves are known as ________ methods. 
+",a) reiterative ~b) self-calling ~c) repeat-calling ~d) recursive ~,d
+"Information may be                   methods. 
+",a) passed to ~b) returned from ~c) manipulated in ~d) All of the above. ~,d
+"A method is invoked by a                 . 
+",a) return statement ~b) method header ~c) method call ~d) None of the above. ~,c
+"Methods are called by writing the name of the method followed by               enclosed in parentheses. 
+",a) a condition ~b) arguments ~c) a counter ~d) None of the above. ~,b
+"The technique of dividing large programs into simple problems is known as divide and conquer. 
+",,True.
+"The return type of a method’s return value is specified in the method call. 
+",,"False. The return type for a method is specified in the method header, not in a method call. 
+ "
+"Methods should be large and perform as many tasks as possible. 
+",,"False. A method should perform a single well-defined task. 
+ "
+"Repeating high-quality, high-performance code in a program helps ensure higher quality 
+",,"False. You should avoid repeating code in a program. Package the code as methods and call 
+those methods repeatedly, but do not repeat the code itself. "
+"Which of the following is not a way of packaging code? 
+",a) methods ~b) classes ~c) variables ~d) namespaces ~,c
+"Many prepackaged classes and methods are provided in the .NET FCL, an acronym for the                . 
+",a) Framework Class Library ~b) Framework Class Listing ~c) Form Class Library ~d) None of the above. ~,a
+"Prepackaged methods and classes are available for use in the .NET Framework Class Library. 
+",,True.
+"Methods defined by the programmer may consist only of predefined .NET method calls. 
+",,"False. Methods may consist of any code that the programmer wishes to execute. 
+ "
+"Which of the following correctly calls the Math class method Sqrt with a value of 36? 
+",a)  Sqrt(36); ~b) Math.Sqrt(36); ~c) Math.Sqrt = 36; ~d) None of the above. ~,b
+"Which of the following describes a static variable? 
+",a) a variable with one copy shared by all class objects ~b) a variable whose value may not be changed ~c) all of the above ~d) None of the above. ~,a
+"When may an application omit the string[] args parameter from the Main header? 
+",a) when the application does not need to use strings ~b) when the application does not take command-line arguments ~c) when the application does not output any strings ~d) All of the above ~,b
+"Any variable declared with keyword const is a constant and cannot be changed after it's declared. 
+",,True.
+"A static variable represents class-wide information. 
+",,True.
+"A program contains a copy of a static variable for each object that's instantiated. 
+",,"False. A program contains only one copy of a static variable, no matter how many objects are 
+instantiated. "
+"The Math class provides only methods. 
+",,"False. Math also provides  data such as values for PI and the base value E for natural logarithms. 
+ "
+"Main is declared static so the execution environment can invoke Main without creating an instance 
+",,True.
+"How are various parameters separated in the method header? 
+",a) brackets ~b) braces ~c) commas ~d) periods ~,c
+"The parameter list in the method header and the arguments in the method call must agree in: 
+",a) number ~b) type ~c) order ~d) all of the above ~,d
+"strings can be concatenated only with the method Concat. 
+",,"False. strings can also be concatenated with the operators  + or +=. 
+ "
+"Method arguments may not be expressions. 
+",,"False. Method arguments may be variables, constants or expressions. 
+ "
+"To call a static method, use the _________ name followed by a period, and the method with its 
+",a) class’s ~b) instance variable’s ~c) namespace’s ~d) All of the above ~,a
+"Which keyword can programmers use to break out of a void method? 
+",a) continue ~b) break ~c) return ~d) next ~,c
+"A static method can ________. 
+",a) call only other static methods of the same class directly ~b) manipulate only static fields in the same class directly ~c) be called using the class name and a dot (.) ~d) All of the above ~,d
+"To access the class’s non-static members, a static method must use a reference to an object of the 
+",,True.
+"When a return statement executes, control proceeds immediately to the first statement after the 
+",,"False. When a return statement executes, control returns immediately to the point at which 
+a method was invoked. "
+"Stacks are _____________ data structures. 
+",a) FIFO ~b) Random ~c) LIFO ~d) None of the above. ~,c
+"What is pushed onto the program execution stack when a method is call? 
+",a) the whole method ~b) the class of the method being called ~c) the object of method being called ~d) the return address of the method being called ~,d
+"The local variables used in each invocation of a method during an application’s execution are stored 
+",a) program execution stack ~b) activation record ~c) stack frame ~d) All of the above. ~,d
+"Since memory in a computer is finite, an stack error may occur known as stack overflow. 
+",,True.
+"A(n)                    conversion occurs when a type is converted to a type that can hold more data. 
+",a) implicit ~b) widening ~c) explicit ~d) None of the above. ~,b
+"An int must be explicitly cast to which of the following?  
+",a) float ~b) double ~c) sbyte ~d) bool ~,c
+"Let x be a double. How can you typecast a double into a float?  
+",a) implicitly ~b) x(float) ~c) (float)x ~d) x = float ~,c
+"Conversions that cause data loss are not allowed in C#. 
+",,"False. Conversions that may cause data loss are known as narrowing conversions and they are 
+possible in C#. "
+"What does the Framework Class Library hold? 
+",a) namespaces ~b) classes ~c) methods ~d) All of the above. ~,d
+"By including using System; at the top of a source program, you can use the unqualified class name, 
+",,True.
+"It is always better to write your own code than to search and use a class from the FCL. 
+",,"False. In general, classes from the FCL are optimally designed and are more robust. 
+ "
+"A                is provided to a random number generator to ensure the same sequence of numbers is not 
+",a) date ~b) parameter ~c) seed ~d) None of the above. ~,c
+"Random-number generator scaling is the process of: 
+",a) causing each number in a range to have equal likelihood of being generated ~b) modifying the range from which a number will be generated ~c) calculating a sequence of numbers to be generated ~d) None of the above. ~,b
+"Values returned by the Random class method Next are pseudo-random numbers. 
+",,True.
+"The Next method produces a random number from zero up to and including the number provided by 
+",,"False. The number produced is from zero up to and not including the number provided by the 
+programmer. "
+"A particular seed value always produces the same series of random numbers. 
+",,True.
+"Values produced by random-number generating methods are truly random. There is no way to 
+",,"False.  Actually, these numbers are pseudorandom numbers—a fixed sequence of values 
+produced by a complex mathematical calculation. "
+"A(n)                   is a value type that contains a set of constant values. 
+",a) enumeration ~b) object ~c) set ~d) None of the above. ~,a
+"Which of the following cannot be an enum’s underlying type? 
+",a) sbyte ~b) int ~c) ulong ~d) double  ~,d
+"To compare a simple-type value to the underlying value of an enumeration constant, you must use a 
+",,True.
+"Identifiers declared within a class have                    . 
+",a) block scope ~b) class scope ~c) local scope ~d) None of the above. ~,b
+" Which of the following statements describes block scope? 
+",a) It begins at the opening { of the class declaration and terminates at the closing } ~b) It limits label scope to only the method in which it is declared. ~c) It begins at the identifier's declaration and ends at the terminating right brace (}). ~d) It is valid for one statement only. ~,c
+"Which of these statements best defines scope? 
+",a) Scope refers to the classes that have access to a variable. ~b) Scope determines whether a variable’s value can be altered. ~c) Scoping allows the programmer to use a class without using its fully qualified name. ~d) Scope is the portion of a program that can refer to an entity by its simple name. ~,d
+"Any variables declared in a for statement header have block scope within that statement. 
+",,True.
+"Methods of a class can access all members defined in that class. 
+",,True.
+"The declaration space of a class begins at the opening left brace and terminates at the closing right 
+",,True.
+"A local variable or reference declared in a block can be used in blocks in which that block is nested.  
+",,"False. A local variable or reference declared in a block can be used only in that block or in 
+blocks nested within that block. "
+"Which of the following will violate the rules of overloading methods? 
+",a) Methods with the same signatures but different return types. ~b) Methods with different signatures but the same return type. ~c) Methods with different number of arguments. ~d) Method with different types of arguments. ~,a
+"An overloaded method is one that 
+","a) has a different name than another method, but the same parameters. ~b) has the same name as another method, but different parameters. ~c) has the same name and parameters as a method defined in another class. ~d) has the same name and parameters, but a different return type than another method. ~",b
+"The order of a method’s parameters is insignificant. 
+",,"False. The order of a method’s parameters helps determine the signature of the method. 
+ "
+"Methods of the same name can be declared in the same class, as long as they have different sets of 
+",,True.
+"Optional parameters enable you to specify default argument values for specific parameters. 
+",,True.
+"When calling a method, you must specify the arguments in the same order that the corresponding 
+",,"False. Using named parameters, you can specify the argument values in any order as long as 
+each argument is preceded by the corresponding parameter's name and colon (:). This can also be used "
+"A recursive method is a method that: 
+",a) calls another method ~b) calls itself ~c) has no return type ~d) None of the above ~,b
+"Which of the following is not part of recursion? 
+",a) recursive call ~b) recursion step(s) ~c) base case(s) ~d) None of the above. ~,d
+"A recursion step normally includes the keyword return. 
+",,True.
+"A recursive method only knows directly how to solve the base case. 
+",,True.
+"Recursion takes a complex problem and splits it up among many methods. 
+",,"False. Recursion involves one method that executes many times to solve a complex problem 
+piece by piece. "
+"Improperly defining a recursive method may result in an infinite recursion. 
+",,True.
+"Passing an argument to a method by-value provides the method with: 
+",a) the address of the value in memory ~b) a separate copy of the value ~c) the type of the value ~d) None of the above. ~,b
+"The                   keyword is used to pass value-type variables to methods by-reference. 
+",a) ref ~b) reference ~c) RefPass ~d) None of the above. ~,a
+"Pass-by-value is used when optimal program performance is necessary. 
+",,"False. Pass-by-value reduces performance by creating unnecessary copies of data. 
+ "
+" A  method’s  changes  to  a  variable  that  is  passed-by-value  do  not  affect  the  value  of  the  original 
+",,True.
+"A method cannot change the actual reference of an identifier that has been passed-by-reference. 
+",,True.
+"Object orientation uses classes to: 
+",a) develop algorithms ~b) encapsulate data and methods ~c) organize large amounts of data ~d) None of the above. ~,b
+"An instance of a user-defined type is called a(n)                 . 
+",a) class ~b) interface ~c) object ~d) None of the above. ~,c
+"Objects can hide their implementation from other objects. 
+",,True.
+"The data components of a class are called instance variables. 
+",,True.
+"Instances of a class are called class variables. 
+",,"False. Instances of a class are called objects. 
+ "
+"The _________ of a class are also called the public services or the public interface of the class.  
+",a) public constructors ~b) public instance variables ~c) public methods ~d) All of the above ~,c
+"Instance variables or methods declared with the                 modifier are accessible only in that class 
+",a) protected ~b) static ~c) private ~d) None of the above. ~,c
+"A class’s                  initializes members of that class. 
+",a) constructor ~b) utility method ~c) access modifier ~d) None of the above. ~,a
+"Programmers should not take into consideration that their code will be modified. 
+",,"False. Programmers should always anticipate that their code will be modified. 
+ "
+"Member access modifiers are used to limit how much memory is available for class members. 
+",,"False. Member access modifiers are used to control the accessibility of class members between 
+separate classes. "
+"The purpose of utility methods is to support the operation of a class’ other methods. 
+",,True.
+"Which of the following statements is true?  
+",a) Methods and instance variables can both be either public or private. ~b) Information hiding is achieved by restricting access to class members via keyword public. ~c) The public members of a class are not directly accessible to the client of a class. ~d) None of the above is true. ~,a
+"The public methods of a class present the services that a class provides. 
+",,True.
+"Variables or methods declared with access modifier public are accessible wherever the program has 
+",,True.
+"An attempt by a method which is not a member of a particular class to access a private member of 
+",,"False. Attempts to access another class’s private members result in compilation errors. 
+ "
+"An object’s this reference refers to: 
+",a) the object itself ~b) what the programmer specified ~c) the entry point of the program ~d) None of the above. ~,a
+"In a method in which a parameter has the same name as an instance variable, using the this reference 
+",a) the parameter ~b) the instance variable  ~c) varies depending on the situation ~d) None of the above ~,b
+"Only certain objects have a this reference. 
+",,"False. Every object has a reference to itself. 
+ "
+"this is often used to distinguish between a local variable and class variable that share an identical 
+",,True.
+"A constructor cannot: 
+",a) be overloaded. ~b) initialize variables to their defaults. ~c) specify return types or return values. ~d) have the same name as the class. ~,c
+"Constructors: 
+","a) initialize instance variables ~b) when overloaded, can have identical argument lists ~c) when overloaded, are selected by number and types of parameters ~d) a and c ~",d
+"A constructor that is invoked with no arguments is called a ________. 
+",a) zero-argument constructor ~b) parameterless constructor ~c) default constructor ~d) main constructor ~,b
+"C# invokes the appropriate constructor by matching the number, types and order of the parameters 
+",,True.
+"An object of a class that has a reference to another object of the same class may access all the private 
+",,True.
+"A constructor may not have a return value. 
+",,True.
+"A constructor may not call other methods. 
+",,"False. A constructor can call other class methods. 
+ "
+"Attempting to overload a constructor with another constructor that has the exact same signature 
+",,True.
+"How many parameters does the default constructor that C# creates for you have? 
+",a) 3 ~b) 1 ~c) 0 ~d) varies ~,c
+"Every class must have at east one constructor. 
+",,True.
+"The use of references to objects of preexisting classes as members of new objects is called                    . 
+",a) inheritance ~b) composition ~c) polymorphism ~d) None of the above. ~,b
+"Composition: 
+",a) Is a form of software reuse. ~b) Is using an object reference as a class member. ~c) Is a good design practice. ~d) All of the above. ~,d
+"A class cannot have references to objects of other classes as members.  
+",,"False. A class can have references to objects of other classes as members. Such a capability is 
+called composition.  "
+"Composition is a form of software reuse. 
+",,True.
+"Classes may be composed of only one other class. 
+",,"False. Classes may be composed of as many classes as you desire. 
+ "
+"User-defined classes may be composed of other user-defined classes. 
+",,True.
+"Failure to release resources when the program is no longer using them can cause                
+",a) buffer overflows ~b) resource leaks ~c) exceptions ~d) None of the above. ~,b
+"A                can be defined in a class to perform termination housekeeping on an object before the 
+",a) destructor ~b) property ~c) garbage collector ~d) None of the above. ~,a
+"C# is like C++ in that programmers must manage memory explicitly. 
+",,"False. C# performs memory management internally. 
+ "
+"A destructor has the same name as the class and its constructor. 
+",,"False. A destructor is the name of the class preceded by the ~ character. 
+ "
+"You cannot determine when the garbage collector will execute. 
+",,True.
+"The garbage collector looks for objects with no values. 
+",,"False. The garbage collector looks for objects with no ""inbound"" references. 
+ "
+"Which of the following describes a static variable? 
+",a) a variable with one copy shared by all class objects ~b) a variable whose value may not be changed ~c) all of the above ~d) None of the above. ~,a
+"Each object of a class has its own copy of all the instance variables of the class. 
+",,True.
+"A static variable represents class-wide information. 
+",,True.
+"A program contains a copy of a static variable for each object that's instantiated. 
+",,"False. A program contains only one copy of a static variable, no matter how many objects are 
+instantiated. "
+"Variables that are static have class scope. 
+",,True.
+"Each instance of a class has a separate copy of that class's static variables.  
+",,"False. All objects of a class share the same copy of the class's static variables. 
+ "
+"Keyword                 is used for constants whose values cannot be determined at compile time. 
+",a) const ~b) readonly ~c) static ~d) None of the above. ~,b
+"Instance variables declared readonly do not or cannot: 
+",a) use the principle of least privilege ~b) be initialized ~c) be modified once the object is constructed ~d) cause syntax errors if used as a left-hand value ~,c
+" Abstract Data Types: 
+","a) elevate the importance of data ~b) are only approximations or models of real-world concepts and behaviors ~c) capture two notions, data representation and operations ~d) All of the above ~",d
+"The term information hiding refers to:  
+",a) public methods ~b) hiding implementation details from clients of a class ~c) accessing static class members ~d) the process of releasing an object for garbage collection ~,b
+"Stacks are commonly referred to as                data structures. 
+","a) first-in, last-out ~b) first-in, first-out ~c) last-in, first-out ~d) None of the above. ~",c
+"A                data structure can be described as a ""waiting line."" 
+",a) stack ~b) queue ~c) list ~d) None of the above. ~,b
+" The  concept  of  data  abstraction  refers  to  the  fact  that  a  client  does  not  know  how  a  class’s 
+",,True.
+"C# is extensible because altering the base language is as simple as it's easy to extend via new types. 
+",,"False. Although C# is easy to extend via new types, you cannot alter the base language itself. 
+ "
+"                 displays the variables and methods for all classes in a project. 
+",a) Class View ~b) Object Browser ~c) Design View ~d) None of the above. ~,a
+"The Object Browser _____________. 
+",a) lists all the classes in the C# library ~b) describes the functionality provided by a specific class ~c) is separated into 3 frames ~d) All of the above. ~,d
+"The classes, variables and methods in a program are displayed in a hierarchical structure in Class 
+",,True.
+"Developers use the Object Browser to learn about the functionality provided by a specific class. 
+",,True.
+"Object initializers (which initialize an object and its properties) use what syntax? 
+","a) new className ( property1 -> value1, … ); ~b) new className ( property1 = value1, … ); ~c) new className { property1 = value1, … }; ~d) className { property1 = value1, … }; ~",c
+"An object initializer calls the default constructor before executing. 
+",,True.
+"An object initializer list cannot be empty. 
+",,True.
+"You cannot validate values assigned to properties using an object initializer. 
+",,"False. Any validation logic defined in the set accessors will execute when the value is 
+assigned in the initializer list. "
+"A class inherited from two or more levels up in the hierarchy is known as a                  . 
+",a) indirect base class ~b) direct base class ~c) superclass ~d) None of the above ~,a
+"Inheritance is represented by a(n) ________ relationship. 
+","a) ""uses"" ~b) ""is-a"" ~c) ""has-a"" ~d) None of the above. ~",b
+"A derived class cannot access the                members of its base class. 
+",a) private ~b) static ~c) protected ~d) None of the above. ~,a
+"Inheritance is the process of building a class with object references of other classes. 
+",,"False. Inheritance is the process of taking a class and extending its behaviors and capabilities. 
+Building a class from preexisting object references is known as composition. "
+"A class that inherits from another class is referred to as the derived class. 
+",,True.
+"Every object of a base class is an object of that class’s derived classes. 
+",,"False. Derived classes are more specific than their base classes, therefore an object of a base 
+class cannot also be an object of derived classes. "
+"The process of abstraction allows you to focus on the commonalities among objects in the system. 
+",,True.
+"Which of the following pairs demonstrates the ""is-a"" relationship? 
+","a) car, engine ~b) book, table of contents ~c) baseball, sport ~d) None of the above ~",c
+"Which of the following pairs demonstrates the ""has-a"" relationship? 
+","a) car, vehicle ~b) house, window ~c) teacher, person ~d) None of the above ~",b
+"Identify which of the following examples could be considered a base class for the Computer class? 
+",a) machine ~b) hard-drive ~c) software ~d) keyboard ~,a
+"Which of the following is not a base/derived class relationship? 
+",a) Ford/Taurus ~b) University/Boston University ~c) Sailboat/Tugboat ~d) Country/USA ~,c
+"An advantage of inheritance is that: 
+",a) all methods can be inherited ~b) all instance variables can be uniformly accessed by base classes and derived classes ~c) Objects of a derived class can be treated like objects of their base class ~d) None of the above. ~,c
+"A base class may have only one derived class. 
+",,"False. A base class may have many derived classes. 
+ "
+"Members of a base class that are private are not inherited by derived classes. 
+",,"False. The private members of a base class are inherited by derived classes; however, derived 
+classes must access these members through non-private members provided in the base class. "
+"Constructors are not inherited. 
+",,True.
+"All classes in C# have object as either a direct or indirect base class.  
+",,True.
+"Derived classes provide the functionality and features inherited by base classes.   
+",,"False. Base classes provide the functionality and features inherited by derived classes. 
+ "
+"A base class's constructors are inherited into its derived classes.   
+",,"False. Constructors are not inherited—they're specific to the class in which they're declared.  
+ "
+" When  a  derived-class  member  overrides  a  base-class  member,  the  base-class  member  can  be 
+",a) base ~b) top ~c) super ~d) None of the above ~,a
+"Base class methods with this level of access cannot be called from derived classes. 
+",a) private ~b) public ~c) protected ~d) package ~,a
+"The protected members of a class may be accessed in their base class or any classes derived from 
+",,True.
+"A method must be declared __________ for it to be overridden by derived classes. 
+",a)   overrides ~b) overridable ~c) virtual ~d) None of the above ~,c
+"Which of the following classes is the root of the class hierarchy? 
+",a)  System.object ~b) Point ~c) ToString ~d) None of the above ~,a
+"Every class in C#, except __________, extends an existing class. 
+",a) Integer ~b) object ~c) String ~d) Class ~,b
+"Overriding a method differs from overloading a method because: 
+","a) For an overloaded constructor, the base class constructor will always be called first. ~b) For an overridden constructor, the base class constructor will always be called first. ~c) Overloaded methods have the same signature. ~d) Overridden methods have the same signature. ~",d
+"private fields of a base class can be accessed in a derived class 
+",a) by calling private methods declared in the base class ~b) by calling public or protected methods declared in the base class ~c) directly ~d) All of the above ~,b
+"A ""copy-and-paste"" approach is a simple and efficient way of providing functionality that exists in 
+",,"False. A ""copy-and-paste"" approach is time consuming, error-prone and results in many copies 
+of the code existing throughout a system, creating a code maintenance nightmare. "
+" Using  protected  instance  variables  can  cause  derived-class  methods  to be  written  to  depend  on 
+",,True.
+"The base reference may be ""chained"" to traverse further up in the class hierarchy. 
+",,"False. ""Chaining"" base references is a syntax error. 
+ "
+"How can a derived class call a base class constructor? 
+",a) implicitly ~b) explicitly ~c) a and b ~d) the derived class cannot call the base class constructor ~,c
+"When a program creates a derived-class object, the object constructor is the last constructor called 
+",,True.
+"If a base class constructor is overridden, the original constructor can no longer be called explicitly by 
+",,"False. An explicit call to the base class constructor can be included in a derived class constructor 
+via the base reference. "
+"When a base class method is overridden in a derived class, it is common to have the derived class 
+",,True.
+"Inheritance preserves the integrity of a base class. 
+",,True.
+"A key to improving the software development process is encouraging software reuse. 
+",,True.
+"A base class is designed by factoring out similarities among a set of classes. 
+",,True.
+"When creating derived classes, you must use discretion in choosing the proper base class.  Ideally, 
+",,True.
+"The default implementation of method ToString of object returns a string representing ________. 
+",a) the object’s type ~b) the object class name ~c) namespace_name.object_class_name ~d) None of the above ~,c
+"The default Equals implementation determines: 
+",a) whether two references refer to the same object in memory. ~b) whether two references have the same type. ~c) whether two objects have the same instance variables. ~d) whether two objects have the same instance variable values. ~,a
+"Method Equals will accurately compare any two objects.  
+",,"False. When objects of a particular class must be compared for equality, the class should 
+override method Equals to define the proper way to compare the contents of the two objects.  "
+"Every object in C# has at least seven methods: Equals, Finalize, GetHashCode, GetType, 
+",,True.
+"Polymorphism enables you to: 
+",a) program in the general. ~b) program in the specific. ~c) absorb attributes and behavior from previous classes. ~d) hide information from the user. ~,a
+"Polymorphism specifically enables the creation of programs that handle: 
+",a) classes that are containers for other classes ~b) large amounts of data with efficiency ~c) a wide variety of classes in a general manner ~d) None of the above ~,c
+"Polymorphism allows classes to be added with little or no modifications to the generic portion of a 
+",,True.
+" When  used  correctly,  polymorphism  will  never  require  changes  to  be  made  to  any  part  of  the 
+",,"False. Parts of a program that need modification are those that require direct knowledge of 
+the particular class that's added to the hierarchy. "
+"Unfortunately, polymorphic programs make it difficult to add new capabilities to a system.  
+",,"False. Polymorphic programs make it easy to add new capabilities to a system.   
+ "
+"Polymorphism enables objects of different classes that are related by a class hierarchy to be 
+",,True.
+"Polymorphism involves: 
+",a) the same message sent to a variety of objects ~b) a specific message sent to each specific object ~c) different messages sent to one object ~d) None of the above. ~,a
+"Polymorphism allows a programmer to command a wide variety of objects even if the programmer 
+",,True.
+"The use of polymorphism helps promote software extensibility. 
+",,True.
+"Abstract classes may not be: 
+",a) inherited ~b) accessed by derived-classes ~c) instantiated ~d) None of the above. ~,c
+"The abstract methods and properties do not provide an implementation. 
+",,True.
+"Concrete classes provide implementations for every method and property they define. 
+",,True.
+"The programmer may define implementations for abstract methods to act as a default. 
+",,"False. Attempting to provide an implementation for an abstract method is a syntax error. 
+ "
+"All methods in an abstract class are inherently abstract. 
+",,"False. An abstract class may contain instance data and non-abstract methods. 
+ "
+"An abstract base classes can be used to declare references. 
+",,True.
+"An abstract class may be derived from another abstract class. 
+",,True.
+"Objects of abstract base classes can be instantiated.  
+",,"False. Only objects of concrete classes can be instantiated. 
+ "
+"If a method needs to be called polymorphically, what type of reference should be used to point to 
+",a) a reference of the base class that defines the behavior of the object ~b) a reference of the same type as the object ~c) an object reference to the actual object ~d) None of the above. ~,a
+"If the base class contains only abstract method declarations, the base class is used for: 
+",a) implementation inheritance. ~b) interface inheritance. ~c) Both. ~d) Neither. ~,b
+"Which declaration declares abstract method method1 in abstract class Class1 (method1 returns an 
+",a) public int method1();  ~b) public int abstract method1();  ~c) public abstract int method1();  ~d) public int nonfinal method1();  ~,c
+"Every object in C# knows its own class and can access this information through method             . 
+",a) GetType() ~b) GetInformation() ~c) ObjectClass() ~d) ObjectInformation() ~,a
+"An abstract class cannot have instance data and non-abstract methods.  
+",,"False. An abstract class can have instance data and non-abstract methods.  
+ "
+"Operator is returns true if two matching types are being compared. 
+",,True.
+"The keyword sealed is applied to methods and classes to: 
+",a) prevent overriding and inheritance ~b) guarantee an implementation exists ~c) specify a class is concrete ~d) None of the above. ~,a
+"________ code is the process by which the compiler replaces method calls with the code of a method 
+",a) Debugging ~b) Inlining ~c) Compiling ~d) None of the above. ~,b
+"Classes and methods are declared sealed for all of the following reasons, except: 
+",a) sealed methods allow inlining the code. ~b) sealed methods and classes prevent further inheritance. ~c) sealed methods are static. ~d) sealed methods can improve performance. ~,c
+"All of the following methods are implicitly sealed except: 
+",a) a method in an abstract class. ~b) a private method. ~c) a method declared in a sealed class. ~d) static method. ~,a
+"Declaring a method sealed meAnswer: 
+",a) it will prepare the object for garbage collection ~b) it cannot be accessed from outside its class ~c) it cannot be overloaded ~d) it cannot be overridden ~,d
+"All static and private methods are implicitly sealed. 
+",,True.
+"Sealing methods allows the compiler to optimize the program by ""inlining code."" 
+",,True.
+"All methods in a sealed class must be explicitly declared sealed.  
+",,"False. All methods in a sealed class are implicitly sealed. 
+ "
+"A(n) ________ is best used for providing services that bring together disparate objects. 
+",a) abstract class ~b) concrete class ~c) interface ~d) None of the above. ~,c
+"The conventional name for an interface to be called Car is: 
+",a)  InterfaceCar ~b) ICar ~c) CarI ~d) None of the above. ~,b
+"Which of the following characteristics can be used to create an interface for a file, a cat and a house? 
+",a) door ~b) tail ~c) age ~d) None of the above. ~,c
+"Which is used to specify that a class will be implementing an interface? 
+",a) using ~b) : ~c) implements ~d) extends. ~,b
+"A class that implements an interface but does  not declare all of the interface’s methods must be 
+",a) public ~b) interface ~c) abstract ~d) final ~,c
+"An interface is typically used in place of an abstract class when there is no default implementation 
+",,True.
+"An interface is used when there's a default implementation to inherit. 
+",,"False. An interface is used when there's no default implementation to inherit. 
+ "
+"Abstract classes can provide data and services for objects. 
+",,True.
+"Declaring an interface protected allows for extra security precautions. 
+",,"False. Declaring an interface private or protected is an error. 
+ "
+"A class that implements an interface must define all methods and properties of that interface. 
+",,True.
+"An interface  can not provide properties with get and set accessors. 
+",,False. An interface can provide properties with get and set accessors.
+"A class that implements an interface may not act as a base class for other classes. 
+",,"False. A class that implements an interface may be inherited by derived classes. 
+ "
+"An interface reference may invoke only the methods that the interface declares. 
+",,True.
+"Operator overloading is the process of: 
+",a) enabling C#’s operators to work with class objects ~b) using operators to create new classes ~c) using operators to specify which versions of overloaded methods to use ~d) None of the above. ~,a
+"Overloaded operator methods must be declared public and ________. 
+",a)  sealed ~b) protected ~c) static ~d) None of the above. ~,c
+"Keyword _______ is used to indicate a method overloads a specific operator. 
+",a)  implement ~b) operator ~c) overload ~d)  op ~,b
+"Methods that overload binary operators must take two arguments. 
+",,True.
+"Operators should be overloaded to perform actions similar to those that they normally perform on 
+",,True.
+"At least one argument of an operator overload method must be a reference to an object of the class 
+",,True.
