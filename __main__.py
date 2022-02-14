@@ -6,7 +6,7 @@ import random
 class Question:
     def __init__(self, id:int, row_data):
         self.id = id
-        self.question = row_data['question']
+        self.question = row_data['question'].replace('~', '\n')
         self.answers = row_data['answers'].replace('~', '\n')
         self.correct_answer = row_data['correct_answer']
 

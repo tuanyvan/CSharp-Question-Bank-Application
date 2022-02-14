@@ -13,6 +13,7 @@ from io import StringIO
 
 import re
 import csv
+import pyperclip
 
 # Create Question class
 class Question:
@@ -21,7 +22,7 @@ class Question:
         self.regex_match = regex_match
 
         # Store all fields as strings parse from regex matching.
-        self.question = re.match('[1-9]\. (.+\n)', self.regex_match)[1]
+        self.question = re.search('[1-9]\. (.+?(\.|\?|\:))', self.regex_match, flags=re.DOTALL)[1]
         self.answers = ''.join(re.findall('[a-e]\).+\n*', self.regex_match))
         self.correct_answer = ''.join(re.findall('Answer: ([a-e]|True\.(?:.+\.)*(?:.+\n.+)?|False\.(?:.+\.)*(?:.+\n.+)?)', self.regex_match))
 
@@ -53,6 +54,8 @@ print(f'{len(question_matches)} questions were found.')
 questions = []
 for index, match in enumerate(question_matches):
     questions.append(Question(match))
+    if(index == 249):
+        pyperclip.copy(match)
 
 # Use the instance variables from Question class to fill out a CSV or equivalent file for question/answer storage.
 with open('questions.csv', 'w', newline='\n') as questions_csv:
@@ -61,6 +64,6 @@ with open('questions.csv', 'w', newline='\n') as questions_csv:
     writer.writeheader()
 
     for q in questions:
-        writer.writerow({'question': q.question, 'answers': q.answers.replace('\n', '~'), 'correct_answer': q.correct_answer})
+        writer.writerow({'question': q.question.replace('\n', '~'), 'answers': q.answers.replace('\n', '~'), 'correct_answer': q.correct_answer})
 
 questions_csv.close()
