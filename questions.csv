@@ -16,8 +16,8 @@ Attributes of a class are also known as:,a) constructors ~b) local variables ~c)
 Declaring a class's instance variables with access modifier private indicates that only the class's ~methods should have access to those instance variables.,,True.
 The order in which methods are declared in a class declaration determines when those methods are ~called at execution time.,,"False. The order in which methods are declared does not determine the order in which they 
 are called.  "
-"In a UML class diagram, the word “property” is in _________.","a) braces [] ~b) quotes """" ~c) guillemets «» ~d) curly braces {} ~",c
-What is the private visibility symbol in the UML class diagram?,a) + ~b) – ~c) * ~d) ^ ~,b
+"In a UML class diagram, the word ""property"" is in _________.","a) braces [] ~b) quotes """" ~c) guillemets <<>> ~d) curly braces {} ~",c
+What is the private visibility symbol in the UML class diagram?,a) + ~b) - ~c) * ~d) ^ ~,b
 "A class diagram helps you design a class, so it is required to show every implementation detail.",,"False. To maintain simplicity when designing the class, it is often best not to show every 
 implementation detail. "
 Which of the following is a reason for using the get and set accessors?,a) To follow a universal standard.  ~b) To allow the class to control the manner in which the data is set or returned. ~c) To make a program more robust. ~d) b and c ~e) All of the above ~,d
