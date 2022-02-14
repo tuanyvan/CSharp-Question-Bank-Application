@@ -215,7 +215,7 @@ C# is extensible because altering the base language is as simple as it's easy to
 The Object Browser _____________.,a) lists all the classes in the C# library ~b) describes the functionality provided by a specific class ~c) is separated into 3 frames ~d) All of the above. ~,d
 "The classes, variables and methods in a program are displayed in a hierarchical structure in Class ~View.",,True.
 Developers use the Object Browser to learn about the functionality provided by a specific class.,,True.
-Object initializers (which initialize an object and its properties) use what syntax?,"a) new className ( property1 -> value1, … ); ~b) new className ( property1 = value1, … ); ~c) new className { property1 = value1, … }; ~d) className { property1 = value1, … }; ~",c
+Object initializers (which initialize an object and its properties) use what syntax?,"a) new className ( property1 -> value1, ... ); ~b) new className ( property1 = value1, ... ); ~c) new className { property1 = value1, ... }; ~d) className { property1 = value1, ... }; ~",c
 An object initializer calls the default constructor before executing.,,True.
 An object initializer list cannot be empty.,,True.
 You cannot validate values assigned to properties using an object initializer.,,"False. Any validation logic defined in the set accessors will execute when the value is 
