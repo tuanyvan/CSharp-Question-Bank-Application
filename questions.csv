@@ -108,7 +108,7 @@ Values returned by the Random class method Next are pseudo-random numbers.,,True
 The Next method produces a random number from zero up to and including the number provided by ~the programmer in the method call.,,"False. The number produced is from zero up to and not including the number provided by the 
 programmer. "
 A particular seed value always produces the same series of random numbers.,,True.
-Values produced by random-number generating methods are truly random.,,"False.  Actually, these numbers are pseudorandom numbers—a fixed sequence of values 
+Values produced by random-number generating methods are truly random.,,"False.  Actually, these numbers are pseudorandom numbers-a fixed sequence of values 
 produced by a complex mathematical calculation. "
 A(n)                   is a value type that contains a set of constant values.,a) enumeration ~b) object ~c) set ~d) None of the above. ~,a
 Which of the following cannot be an enum's underlying type?,a) sbyte ~b) int ~c) ulong ~d) double  ~,d
@@ -242,7 +242,7 @@ Constructors are not inherited.,,True.
 All classes in C# have object as either a direct or indirect base class.,,True.
 Derived classes provide the functionality and features inherited by base classes.,,"False. Base classes provide the functionality and features inherited by derived classes. 
  "
-A base class's constructors are inherited into its derived classes.,,"False. Constructors are not inherited—they're specific to the class in which they're declared.  
+A base class's constructors are inherited into its derived classes.,,"False. Constructors are not inherited-they're specific to the class in which they're declared.  
  "
 " When  a  derived-class  member  overrides  a  base-class  member,  the  base-class  member  can  be ~accessed from the derived-class by using the keyword                       .",a) base ~b) top ~c) super ~d) None of the above ~,a
 Base class methods with this level of access cannot be called from derived classes.,a) private ~b) public ~c) protected ~d) package ~,a

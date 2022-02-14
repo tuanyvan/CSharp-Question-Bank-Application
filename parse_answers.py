@@ -52,7 +52,7 @@ print(f'{len(question_matches)} questions were found.')
 # Pass each Regex match to Question class for further parsing
 questions = []
 for index, match in enumerate(question_matches):
-    questions.append(Question(match.replace('“','"').replace('”','"').replace('‘', '\'').replace('’', '\'').replace('«', '<<').replace('»', '>>').replace('–', '-')))
+    questions.append(Question(match.replace('“','"').replace('”','"').replace('‘', '\'').replace('’', '\'').replace('«', '<<').replace('»', '>>').replace('–', '-').replace('—', '-')))
 
 # Use the instance variables from Question class to fill out a CSV or equivalent file for question/answer storage.
 with open('questions.csv', 'w', newline='\n') as questions_csv:
