@@ -1,4 +1,4 @@
-question,answer,correct_answer
+question,answers,correct_answer
 "An object’s property can have which of the following accessors? 
 ",a) get ~b) set ~c) a and b ~d) None ~,c
 "Which of the following terms refers to the data represented by an object’s instance variables? 

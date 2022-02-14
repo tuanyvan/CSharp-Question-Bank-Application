@@ -56,11 +56,11 @@ for index, match in enumerate(question_matches):
 
 # Use the instance variables from Question class to fill out a CSV or equivalent file for question/answer storage.
 with open('questions.csv', 'w', newline='\n') as questions_csv:
-    header = ['question', 'answer', 'correct_answer']
+    header = ['question', 'answers', 'correct_answer']
     writer = csv.DictWriter(questions_csv, header)
     writer.writeheader()
 
     for q in questions:
-        writer.writerow({'question': q.question, 'answer': q.answers.replace('\n', '~'), 'correct_answer': q.correct_answer})
+        writer.writerow({'question': q.question, 'answers': q.answers.replace('\n', '~'), 'correct_answer': q.correct_answer})
 
 questions_csv.close()
