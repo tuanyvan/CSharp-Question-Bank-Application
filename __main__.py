@@ -20,8 +20,6 @@ class QuestionPrompt:
 class main():
     def __init__(self):
 
-        random.seed()
-
         # Read the CSV and parse the row data into a list.
         question_bank = []
 
@@ -47,7 +45,9 @@ class main():
         # Start the quiz game.
         while True:
             # Get a random question from the CSV.
-            currentQuestion = QuestionPrompt(question_bank[random.randint(0, len(wrong_response) - 1)])
+            random.seed()
+            random_question_index = random.randint(0, len(question_bank) - 1)
+            currentQuestion = QuestionPrompt(question_bank[random_question_index])
 
             # Show the user the question and prompts for the question.
             print(f"\nQuestion #{questions_answered + 1}\n{currentQuestion.question}\n{currentQuestion.answers}")
