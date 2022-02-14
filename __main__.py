@@ -47,23 +47,26 @@ class main():
         # Start the quiz game.
         while True:
             # Get a random question from the CSV.
-            currentQuestion = QuestionPrompt(question_bank[0, len(wrong_response) - 1])
+            currentQuestion = QuestionPrompt(question_bank[random.randint(0, len(wrong_response) - 1)])
 
             # Show the user the question and prompts for the question.
-            print(f"\nQuestion #{questions_answered + 1}\n{currentQuestion.question}{currentQuestion.answers}")
+            print(f"\nQuestion #{questions_answered + 1}\n{currentQuestion.question}\n{currentQuestion.answers}")
 
             # Get user input, reject if not one of (a,b,c,d,e,true,false,t,f)
             is_input_valid = False
             while not is_input_valid:
-                user_answer = input("Your answer: ").lower()[0]
-                if user_answer not in ('a','b','c','d','e','true','false','t','f'):
-                    if user_answer in ('quit', 'q'):
-                        wants_to_leave = True
-                        break
+                try:
+                    user_answer = input("Your answer: ").lower()[0]
+                    if user_answer not in ('a','b','c','d','e','true','false','t','f'):
+                        if user_answer in ('quit', 'q'):
+                            wants_to_leave = True
+                            break
+                        else:
+                            print("That is not a valid input. Please answer one of the prompts a, b, c, d, e, true, false, t, or f.")
                     else:
-                        print("That is not a valid input. Please answer one of the prompts a, b, c, d, e, true, false, t, or f.")
-                else:
-                    is_input_valid = True;
+                        is_input_valid = True;
+                except IndexError:
+                    print("Please provide an answer to the question.")
 
             # If input was one of ('quit', 'q'), leave the program.
             if wants_to_leave:
@@ -74,7 +77,7 @@ class main():
             if user_answer == currentQuestion.correct_answer[0].lower():
 
                 user_score += 1
-                print("\n" + correct_response[random.randint(0, len(correct_response) - 1)])
+                print('\n' + correct_response[random.randint(0, len(correct_response) - 1)])
 
                 # If it was a true false with an explanation...
                 if len(currentQuestion.correct_answer) > 6:
@@ -82,7 +85,7 @@ class main():
 
             # Otherwise, if the user got it wrong, tell them the right answer.
             else:
-                print(wrong_response[random.randint(0, len(wrong_response) - 1)])
+                print('\n' + wrong_response[random.randint(0, len(wrong_response) - 1)])
                 print(f'Answer: {currentQuestion.correct_answer}')
 
             print(f'You have gotten {user_score} correct {"answers" if user_score != 1 else "answer"} out of {questions_answered} {"questions" if questions_answered != 1 else "question"}.')
