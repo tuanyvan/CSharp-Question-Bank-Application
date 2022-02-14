@@ -13,7 +13,6 @@ from io import StringIO
 
 import re
 import csv
-import pyperclip
 
 # Create Question class
 class Question:
@@ -54,8 +53,6 @@ print(f'{len(question_matches)} questions were found.')
 questions = []
 for index, match in enumerate(question_matches):
     questions.append(Question(match))
-    if(index == 249):
-        pyperclip.copy(match)
 
 # Use the instance variables from Question class to fill out a CSV or equivalent file for question/answer storage.
 with open('questions.csv', 'w', newline='\n') as questions_csv:
