@@ -1,0 +1,102 @@
+question,answers,correct_answer
+"Unlike arrays, Lists do not resize automatically.",,"False. Lists resize automatically and arrays must be explicitly resized. 
+ "
+Visual C# requires you to write SQL to query data sources.,,"False.  LINQ can be used to query data sources. 
+ "
+LINQ allows you to select items from a data source that meet a set of conditions.,,True.
+"In a LINQ query, the where clause specifies             .",a) the data source ~b) where to put the data ~c) the condition(s) for including the item ~d) the Location property ~d) the data type ~,c
+"The range variable is implicitly defined in the _____ clause and used to produce results in the ______ clause ~a)  where, put ~b) from, put ~c) from, select ~d) where, select ~e)   in, foreach ~Answer:","a)  where, put ~b) from, put ~c) from, select ~d) where, select ~e)   in, foreach ~",c
+What method returns the number of items in LINQ query result q?,a) q.Length ~b) q.Size ~c) q.getUpperBound ~d) q.Count ~,d
+The range variable for the LINQ query must be of type IEnumerable.,,"False.  IEnumerable is an interface for objects that can be iterated through. 
+ "
+The objects returned when using multiple properties in a select clause are objects of an anonymous type.,,True.
+"If multiple properties are listed in the select clause, the results will be of type SelectedList.",,"False.  The query will return the properties in an object of an anonymous class. 
+ "
+A generic method is a shorter way to express overloaded methods.,,True.
+A generic method does not need an object of the class in order to be executed.,,"False. A static method (discussed in Chapter 10) does not need an object in order to be executed. 
+ "
+A type parameter specifies the type that must be used.,,"False.  A type parameter is a placeholder for the type that is used. 
+ "
+Collections of type List< T > can hold objects of what type?,a) only other lists ~b) only integers ~c) objects of any one type ~d) None of the above ~,c
+"A List< T > is similar to an array, but can also _________.",a) dynamically resize ~b) add items anywhere in the List< T > ~c) contain objects of any one type ~d) Both a and b ~,d
+The .,,True.
+A List< T > can automatically resize itself to accommodate additional elements.,,True.
+The Capacity property indicates the number of elements stored in the List< T >.,,"False. The Capacity property indicates the number of elements that can be stored in the List< T > without 
+resizing. "
+A let clause is used to create _______.,a) a method within a LINQ query ~b) a subquery ~c) a new range variable ~d) None of the above ~,c
+LINQ is used to query collections in exactly the same way it's used to query arrays.,,True.
+A LINQ query is executed when it is created.,,"False. A LINQ query is not executed until its results are accessed. 
+ "
+LinkLabels are used to:,a) organize a group of labels ~b) bring the user to a desired location ~c) allow many labels to be modified during runtime all at once ~d) All of the above ~,b
+Which of the following statements are true about menus created through C#?,a) Provide groups of related commands for Windows applications. ~b) Organize commands without cluttering the GUI ~c) Have the capacity to create shortcuts for the menu commands ~d) All of the above ~,d
+Types of menus available are:,"a) the normal: File, Edit, Help. ~b) the normal and some: also Format, Window, Special, View. ~c) you can insert whatever menu titles you want to.. ~d) C# makes all the menus for the programmer. ~",c
+What does the MonthCalendar allow for?,a) time selection ~b) date selection ~c) a and b ~d) None of the above ~,b
+What event occurs when a new date is selected?,a) NewDate ~b) ModifiedDate ~c) ChangedDate ~d) DateChanged ~,d
+"For a selection, the user must type the desired date.",,"False. The MonthCalendar control provides a GUI calendar that the user can select from. 
+ "
+What does the DateTimePicker allow for?,a) time selection ~b) date selection ~c) a and b ~d) None of the above ~,c
+What is the event when a value is selected?,a) ValueChanged ~b) DateTimeModified ~c) DateModified ~d) TimeModified ~,a
+The Format property specifies the user's selection options using the DateTimePickerFormat enumeration.,,True.
+The DateTimePicker is limited to displaying up to a year's selection at a time.,,"False. Setting various properties of the control, the DateTimePicker control may display more than a 
+year's selection. "
+LinkLabels are most commonly used for:,a) shortcuts to menu items. ~b) links to an Explorer window. ~c) links to a Web site. ~d) a) & b) ~e) b) & c) ~,e
+The LinkVisited property is used to:,a) determine if a link has be visited by the user previously ~b) set what the color will be for an already visited link ~c) sets the link color to the VisitedLinkColor as opposed to the LinkColor ~d) change the destination of the link ~,c
+If you want a user to select several choices you should use:,a) a ListBox ~b) a CheckListBox ~c) either a ListBox or a CheckedListBox ~d) neither a ListBox or a CheckedListBox ~,c
+The syntax for adding a new item to a ListBox is:,"a) ListBox.Items.Add( ""item"" ) ~b) ListBox.Add( ""item"" ) ~c) ListBox.Items.Insert( ""item"" ) ~d) ListBox.Insert( ""item"" ) ~",a
+In order to clear a list of all values the syntax is:,a) ListBox.Items.Clear() ~b) ListBox.Items.DeleteItem.All() ~c) ListBox.Clear() ~d) ListBox.Items.DeleteAll() ~,a
+In order to have a program close use:,a) the reserved word exit ~b) the reserved word unload ~c) Application.Exit() ~d) Application.Unload() ~,c
+To add an item to a CheckedListBox use:,a) the Add method ~b) the AddRange method ~c) the String Collection Editor ~d) All of the above ~,d
+Class CheckedListBox derives from class ListBox and contains similar properties.,,True.
+Setting the SelectionMode property to SelectionMode.,,"False. A CheckedListBox always allows multiple items to be checked. 
+ "
+You should use a ComboBox when:,a) aesthetic reasons dictate it. ~b) there are many choices.  ~c) they want to allow the user to select from pre-set options. ~d) all of the above. ~e) a) & c). ~,d
+The MaxDropDownItems property ~a) sets the maximum number of items the list can hold ~b) creates a scrollbar on the list after it exceeds the set max ~c) creates a max to how many items the user can add to the list ~d) can be set from 1 to 1000 ~Answer:,a) sets the maximum number of items the list can hold ~b) creates a scrollbar on the list after it exceeds the set max ~c) creates a max to how many items the user can add to the list ~d) can be set from 1 to 1000 ~,b
+When adding a node to a tree use:,a) treeView.Nodes[ parentIndex ].Nodes.Add( new TreeNode(ChildLabel)) ~b) treeView.Node[parentIndex].Add(new TreeNode(ChildLabel)) ~c) treeView.Node[parentIndex].Add(ChildLabel) ~d) treeView.Node[parentIndex].Nodes.Add(ChildLabel) ~,a
+An example of a TreeView is:,a) all of your e-mail ~b) a Web site in Internet Explorer ~c) the My Computer folder ~d) the left side of Windows Explorer ~,d
+The Activation property of a ListView can be set to:,a) OneClick ~b) TwoClick ~c) Standard ~d) All of the above ~,d
+The main purpose of tabbed windows are:,a) to group controls ~b) to conserve screen space ~c) to organize the form ~d) All of the above ~,d
+The ItemSize property is used to determine ~a) how big controls on each TabPage can be ~b) the actual size of each TabPage ~c) the size of the tab for each TabPage ~d) there is no ItemSize property ~Answer:,a) how big controls on each TabPage can be ~b) the actual size of each TabPage ~c) the size of the tab for each TabPage ~d) there is no ItemSize property ~,c
+A good example of an MDI program is:,a) Notepad ~b) Adobe Photoshop ~c) Internet Explorer ~d) All of the above ~,b
+What is the event that is generated when an MDI child is closed or activated?,a) MdiChildStatusChanged ~b) MdiChildActivate ~c) MdiChildModified ~d) MdiChildCA ~,b
+Data stored in a file is considered:,a) temporary data ~b) persistent data ~c) recurring data ~d) there is no need to store data in files ~,b
+Files can be stored in:,a) hard drives ~b) optical disks ~c) magnetic tapes ~d) All of the above ~,d
+_______________ are used for long-term retention of large amounts of data.,a) Memory cards ~b) Buffers ~c) Files ~d) Data structures ~,c
+Binary code is actually:,a) a complex programming language. ~b) a series of 0's and 1's. ~c) machine language instructions. ~d) a series of characters representing the numbers 0 to 9. ~,b
+Computer circuitry is able to:,a) get the value of a bit ~b) examine the value of a bit ~c) reverse the value of a bit ~d) All of the above ~,d
+The smallest data item in a computer is the _________.,a) bit ~b) byte ~c) kilobyte ~d) None of the above. ~,a
+One byte is composed of:,a) 2 bits ~b) 4 bits ~c) 8 bits ~d) 10 bits ~,c
+An example of when a file should not be used is:,a) to save the status of a video game for another session. ~b) to save the value of a variable at runtime. ~c) to log errors in the execution of a program. ~d) these are all good examples of when files should be used. ~,b
+"In a ____________ file, a record typically stored in order by a record-key field.",a) chronological ~b) non-sequential ~c) sequential ~d) record-key ~,c
+"To distinguish fields or records there has to be one that is different from every other, this is called the record ~key.",,True.
+The Console.,a) a standard error stream object ~b) a new error ~c) an object of type error ~d) None of the above ~,a
+ Console.,,True.
+"When a file is opened, a stream object is created and associated with the file.",,True.
+The standard output stream object enables a program to output data to the ~screen.,,True.
+Class File can only create new files.,,"False. Class File can be used to alter files. 
+ "
+ What  kind  of  exception ~a) Exception ~b) StreamException ~c) OpenAndCreatingException ~d) IOException ~Answer:,a) Exception ~b) StreamException ~c) OpenAndCreatingException ~d) IOException ~,d
+The enumeration FileAccess is used to:,"a) control user access to a file ~b) control program access to a file ~c) control the amount of updating that can be done on a file at once ~d) FileAccess is a method, not an enumeration ~",a
+Use the _______ method of class OpenFileDialog to show a dialog that allows the user to select a file to be ~opened.,a)  OpenFile ~b) ChooseFile ~c) ShowDialog ~d) OpenFileDialog ~,c
+SQL is an acronym for:,a) Smart Query Language ~b) Simulated Query Language ~c) Structured Query Language ~d) None of the above ~,c
+Today's most popular database systems are ________.,a) management databases ~b) structural databases ~c) formatted databases ~d) relational databases ~,d
+ Database  management  systems  enable  you  to  access  and  store  data  without  worrying  about  the  internal ~representation of databases.,,True.
+Relational databases can be thought of as ________.,a) rows ~b) columns ~c) tables of rows and columns ~d) three-dimensional arrays ~,c
+ A  relational  database  model  allows  relationships  between  data  to  be  considered  without  concern  for  the ~________.,a) meaning of the data ~b) structure of the data ~c) application of the data ~d) All of the above ~,b
+"A primary key field can be duplicated in other records of the same relational database table, making it easier ~to manipulate.",,"False. A primary key field cannot be duplicated in other records of the same relational database table. 
+ "
+ It's possible to select only a subset of a relational database table's columns.,,True.
+There is a ____________ relationship between a primary key and its corresponding foreign key.,a) one-to-one ~b) foreign ~c) one-to-many ~d) structural ~,c
+Each foreign key can be created independently.,,"False. Each foreign key must be a primary key in another table.  
+ "
+How does a cache help provide fast access to data?,a) It performs SQL queries. ~b) It allows tables to be joined. ~c) It temporarily stores data objects in memory. ~d) It manages a database. ~,c
+You must create the LINQ to SQL classes that map database tables into objects in your programs.,,"False. The IDE generates the LINQ to SQL classes to match the database schema. 
+ "
+A foreign key has a property to access its record object in another table.,,True.
+"Using a cache increases ""round trips"" of information to the database.",,"False. Using a cache reduces the number of ""round trips"" to the database. 
+ "
+Tables from databases are commonly shown in a GUI through a ________.,a)  DataBoxView ~b) DataGridView ~c) ListBoxView ~d) SpreadSheet ~,b
+The BindingNavigator allows the user _________.,a) to control which row of the table is currently in view ~b) to add new and delete new rows ~c) to save changes to the data in view ~d) All of the above ~,d
+A DataContext object makes the necessary connections between the database and the program.,,True.
+Setting the ________ property of a DataContext object records all queries to the specified stream.,a)  Log ~b) QueryStack ~c) Cache ~d) DataTrace ~,a
+Microsoft SQL Server uses a variant of SQL called Transact-SQL.,,True.
+LINQ's Join query operator functions like SQL's INNER JOIN operator.,,True.

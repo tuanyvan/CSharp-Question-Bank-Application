@@ -23,10 +23,27 @@ class main():
         # Read the CSV and parse the row data into a list.
         question_bank = []
 
-        with open('questions.csv', newline='') as questions_csv:
-            reader = csv.DictReader(questions_csv)
-            for id, row in enumerate(reader):
-                question_bank.append(Question(id, row))
+        # Get user to select which question bank they want to play.
+        while True:
+            bank_selection = input('Would you like to do Question Bank 1, Question Bank 2, or both?\n1 / 2 / both\n')
+
+            if bank_selection not in ('1', '2', 'both'):
+                print('Invalid selection.')
+                continue
+
+            else:
+                if bank_selection == 'both':
+                    banks = ['1', '2']
+                else:
+                    banks = [bank_selection]
+                break
+
+        # Add questions to the question bank based on the selection.
+        for bank in banks:
+            with open(f'questions{bank}.csv', newline='') as questions_csv:
+                reader = csv.DictReader(questions_csv)
+                for id, row in enumerate(reader):
+                    question_bank.append(Question(id, row))
 
         # Make a record of user score.
         user_score = 0
