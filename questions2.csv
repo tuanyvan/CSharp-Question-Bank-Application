@@ -19,7 +19,7 @@ A type parameter specifies the type that must be used.,,"False.  A type paramete
  "
 Collections of type List< T > can hold objects of what type?,a) only other lists ~b) only integers ~c) objects of any one type ~d) None of the above ~,c
 "A List< T > is similar to an array, but can also _________.",a) dynamically resize ~b) add items anywhere in the List< T > ~c) contain objects of any one type ~d) Both a and b ~,d
-The .,,True.
+"The .NET collection classes provide flexible, efficient alternatives to arrays.",,True.
 A List< T > can automatically resize itself to accommodate additional elements.,,True.
 The Capacity property indicates the number of elements stored in the List< T >.,,"False. The Capacity property indicates the number of elements that can be stored in the List< T > without 
 resizing. "
@@ -68,8 +68,9 @@ One byte is composed of:,a) 2 bits ~b) 4 bits ~c) 8 bits ~d) 10 bits ~,c
 An example of when a file should not be used is:,a) to save the status of a video game for another session. ~b) to save the value of a variable at runtime. ~c) to log errors in the execution of a program. ~d) these are all good examples of when files should be used. ~,b
 "In a ____________ file, a record typically stored in order by a record-key field.",a) chronological ~b) non-sequential ~c) sequential ~d) record-key ~,c
 "To distinguish fields or records there has to be one that is different from every other, this is called the record ~key.",,True.
-The Console.,a) a standard error stream object ~b) a new error ~c) an object of type error ~d) None of the above ~,a
- Console.,,True.
+The Console.Error property returns:,a) a standard error stream object ~b) a new error ~c) an object of type error ~d) None of the above ~,a
+"Console.In, Console.Out and Console.Error are used to take data in, to display data and to show error
+messages, respectively.",,True.
 "When a file is opened, a stream object is created and associated with the file.",,True.
 The standard output stream object enables a program to output data to the ~screen.,,True.
 Class File can only create new files.,,"False. Class File can be used to alter files. 
